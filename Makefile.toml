@@ -1,0 +1,8 @@
+[config]
+skip_core_tasks = true
+[tasks.ts]
+script = [
+'''
+./node_modules/.bin/ts-node $1
+'''
+]
